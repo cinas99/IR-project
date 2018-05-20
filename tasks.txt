@@ -1,0 +1,33 @@
+﻿1. Zdobyć zawartość stron z filmweb (10-100+)
+  .1. zbudować crawler na zasadach (najlepiej prosty)
+	.1. host = filmweb
+	.2. kontynuacja stron (page1, page2,...)
+	.3. zawieranie listy wpisów
+	.4. przetworzone strony nie odwiedza
+  .2. zachować zawartość strony do przetworzenia jako tekst
+  .3. zebrać linki do odwiedzenia
+2. Uzyskać dane ze stron
+  .1. dla każdego wpisu:
+	.1. rok produkcji
+	.2. tytuł
+	.3. autor
+	.4. kraj
+	.5. listę tagów
+	.6.* aktorzy
+	.7. ocena
+3. Posortować, porównać i przedstawić wyniki
+  .1. zebrać ilość wystąpienia poszczególnych:
+	.1. krajów
+	.2. kategorii
+	.3. lat
+  .2. największa ilość tagów dla 1 filmu
+  .3. wybrać 1 kategorię i:
+    .1. sprawdzić gdzie najczęściej występowała
+	.2. które tagi są powiązane
+	.3. lista filmów z tego roku według średniej
+  .4. mapka z zaznaczonymi miejscami - kraje
+  .5. wykres lat wydawania
+  .6. wykres wielu kategorii w każdym roku
+4.* Uzyskać pierwszą stronę google po tytule
+  .1. uzyskanie zawartości strony szukanie google z tytułem filmu
+  .2. wyświetlić listę hostów, które najczęściej występują
